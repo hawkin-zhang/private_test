@@ -1,0 +1,16 @@
+#
+# Kbuild ignores
+#
+.*
+*.o
+*.o.*
+*.a
+*.s
+*.order
+*.symvers
+*.ko
+*.mod.c
+#
+# Never ignore these
+#
+!.gitignore
